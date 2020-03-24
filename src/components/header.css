@@ -1,0 +1,16 @@
+.header{
+    /* width: 100%; */
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0px;
+}
+.header > h4:hover{
+    color: green;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}

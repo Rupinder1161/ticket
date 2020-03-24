@@ -1,0 +1,35 @@
+.selection{
+    /* width: 100%; */
+    color:black;
+    /* display: flex;
+    
+    flex-flow: row wrap;
+    justify-content: center; */
+    padding-top: 10px;
+    widows: 100px;
+    text-align: center;
+}
+.PicDiv{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pics{
+    width:200px;
+    border: 1px solid green;
+    height:400px;
+    margin:20px;
+    background-color: thistle;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 20px 30px black;
+    word-wrap: break-word;
+}
+.pics:hover{
+    transform: scale(1.3);
+}
