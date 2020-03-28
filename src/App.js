@@ -3,13 +3,28 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
 import SelectionPart from './components/SelectionPart'
+import Booking from './components/Booking'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+
+
 
 function App() {
   return (
+    <Router>
     <div>
       <Header/>
-      <SelectionPart/>
+      <Route path="/" exact component={SelectionPart} />
+      <Route path="/booking" exact component={Booking} />
+      {/* <SelectionPart/>
+      <Booking /> */}
     </div>
+    </Router>
   );
 }
 

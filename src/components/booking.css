@@ -1,0 +1,85 @@
+.mainView{
+      width:100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+}
+
+.seatsRight{
+    margin:40px;
+    width: 600px;
+    text-align: center;
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: center; */
+}
+.seatsLeft{
+    width: 600px;
+    margin:40px;
+    text-align: center;
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: center; */
+}
+.seat{
+    margin: 30px;
+    width :100px;
+    height: 100px;
+    margin:50px;
+    background-color: transparent;
+    color:dodgerblue; 
+    box-shadow: 10px 20px 30px black;
+}
+
+.cool{
+    display: flex;   
+    border: 1px solid purple;
+    background-color: rgb(52, 43, 52); 
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+     box-shadow: 10px 20px 30px purple; 
+  
+}
+
+.main{
+    margin:20px;
+}
+
+.topDiv{
+ 
+    width:100%;
+    background-color:transparent;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+
+}
+.topDivLeft{
+ margin: 20px;
+ width:600px;
+ display: flex;
+ flex-flow: row wrap;
+ background-color:transparent;
+ justify-content: center;
+ align-items: center;
+ /* box-shadow: 10px 20px 30px purple;  */
+}
+.topDivRight{
+    margin: 20px;
+    width:600px;
+    display: flex;
+    flex-flow: row wrap;
+    width:600px;
+    background-color:transparent;
+    justify-content: center;
+ align-items: center;
+ overflow-x:hidden;
+ /* box-shadow: 10px 20px 30px purple;  */
+   }

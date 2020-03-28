@@ -7,10 +7,22 @@
     justify-content: space-around;
     margin: 0px;
 }
-.header > h4:hover{
-    color: green;
+.header > h4 > Link {
+    color: white;
+    text-decoration-style: none;
 }
 body{
     margin: 0%;
     padding: 0%;
+}
+
+.Link{
+    color: white;
+    text-decoration: none;
+}
+.Link:hover{
+    transform: scale(1.3);
+    color: green;
+   transform: scale3d(0.5, 1, 1.7);
+   text-decoration: overline white;
 }
