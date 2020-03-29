@@ -31,13 +31,14 @@ export class SelectionPart extends Component {
         
         this.state = {
           username: '',
-          excercises:['']
+          excercises:[''],
+
         }
        this.data = this.data.bind(this);
     
       }
 
-      data(){
+      data(props){
         axios.get('http://localhost:5000/excercises/')
         .then(response => {
              console.log(response.data[0])
