@@ -38,21 +38,6 @@ export class SelectionPart extends Component {
     
       }
 
-      data(props){
-        axios.get('http://localhost:5000/excercises/')
-        .then(response => {
-             console.log(response.data[0])
-           this.setState({ username: response.data,
-            exercises: response.data,
-         })
-           console.log(this.state.excercises[0]._id)
-         // console.log(this.state.exercises.style)
-        })
-        .catch((error) => {
-          console.log(error);
-        })
-      }
-
 
 
       data(){
