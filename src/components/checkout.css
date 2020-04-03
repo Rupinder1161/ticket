@@ -1,0 +1,132 @@
+.Header{
+    width:100%;
+    height: 100vh;
+    /* overflow:visible red; */
+    /* background-color: rgba(218, 238, 40, 0.5); */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(55, 55, 160);
+    align-items: center;
+    font-family: Liu Jian Mao Cao ;
+
+}
+.MainCenterDiv{
+    width:80%;
+    /* padding: 10px; */
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 500px; */
+}
+
+.card{
+    width:500px;
+    /* height: 300px; */
+    /* min-width: 500px; */
+    background-color: brown;
+    margin: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 2px black;
+}
+.form{
+    width: 500px;
+    height: 400px;
+    
+    display: flex;
+    /* justify-content: center; */
+}
+
+.logoDiv{
+    width: 100%;
+    height: 70px;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+
+.chipDiv{
+    width: 100%;
+    height: 70px;
+    margin-left: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.masterlogo{
+    width:70px;
+    height:70px;
+    color: black;
+}
+
+.cardNumber{
+    width:100%;
+    /* margin-top: 40px; */
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    font-family: Arial;
+   color: white;
+   text-shadow: 1px 3px 10px yellow;
+}
+
+.namesTitle{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    /* height:20px; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: white;
+    /* margin-top: 50px; */
+    /* background-color: tomato; */
+    /* background-color: yellowgreen; */
+}
+
+.names{
+    width: 100%;
+    /* height:20px; */
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: monospace;
+    /* font-size: 10px; */
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: white;
+    /* background-color: yellow; */
+}
+
+.forMain{
+    display: flex;
+    color:white;
+    width:100%;
+
+    margin: 40px 10px 20px 10px;
+    flex-flow: row wrap;
+    justify-content: center;
+}

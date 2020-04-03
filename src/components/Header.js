@@ -17,6 +17,7 @@ const g = [
     {header:"Home", url:'/'},
     {header:"Book Ticket" ,url:'/booking'},
     {header:"About us",url:'/About'},
+    {header:"Check Out",url:'/Checkout'}
 
 ]
 
