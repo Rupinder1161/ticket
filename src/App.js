@@ -6,7 +6,7 @@ import SelectionPart from './components/SelectionPart'
 import Booking from './components/Booking'
 import AboutUs from './components/AboutUs'
 import CheckOut from './components/CheckOut'
-
+import LandingPage from './components/LandingPage'
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,7 +25,7 @@ function App() {
       <Route path="/" exact component={SelectionPart} />
       <Route path="/booking" exact component={Booking} />
       <Route path="/About" exact component={AboutUs} />
-      <Route path="/Checkout" exact component={CheckOut} />
+      <Route path="/Checkout" exact component={LandingPage} />
       {/* <SelectionPart/>
       <Booking /> */}
     </div>
