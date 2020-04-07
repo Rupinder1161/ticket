@@ -5,12 +5,17 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import Typography from '@material-ui/core/Typography';
 import Hel from './Hel.svg'
 
-
+import PercentCircle from './PercentCircle'
 import { Timeline } from 'react-material-timeline';
 import { Avatar, Icon } from '@material-ui/core';
 import SchoolIcon from '@material-ui/icons/School';
+import ProgressBar from './ProgressBar'
 
 
+const skills = [
+  {type: "Java", level: 85},
+  {type: "Javascript", level: 75},
+];
 
 const events = [
     {
@@ -94,7 +99,9 @@ export class LandingPage extends Component {
                            <br/>  <span style={{color:"rgb(255,1,255)",fontSize:"50px",lineHeight:"50px"}}><span style={{color:"white"}}>I'm</span> Gurpreet</span>,
                            <br/> <span style={{color:"rgb(1,255,220)",fontSize:"60px",lineHeight:"50px"}}>Web Developer</span>
                            <br/>Frontend End Developer | React Developer
+                           <PercentCircle />
                        </Typography>
+                       
                        <div className="svg">
                        <img src={Hel} style={{height:"100%",width:"100%"}}></img>
                        </div>
@@ -143,7 +150,16 @@ export class LandingPage extends Component {
         {console.log(events.map(e => <h1 style={{color:"red"}}>{e}</h1>))}
                 <Timeline   events={events}/>
                   </div>
+                   {/* DIVFOUR */}
 
+              <div className="divfive">
+                            <h1>Skills</h1>       
+              <ProgressBar/>
+
+
+
+              </div>
+                     
                 </div>
                 
             </div>

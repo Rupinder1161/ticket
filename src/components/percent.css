@@ -1,0 +1,51 @@
+.CircularProgressbar {
+    width: 70px;
+    /* display: flex !important;
+    flex-flow: row wrap; */
+    margin: 10px;
+    /* font-size: 10px !important; */
+   
+}
+.CircularProgressbar:hover{
+    transform: scale(1.2) ;
+    animation: rotate 2s ease-out;
+    
+}
+
+.CircularProgressbar-text{
+    color: red !important;
+}
+
+@keyframes rotate{
+    0%{
+        transform:scale(1.2)  rotate(0deg);
+    }
+    /* 30%{
+        transform: scale(1.2) rotate(90deg);
+    }
+    60%{
+        transform:  scale(1.2) rotate(180deg);
+    }
+    
+    80%{
+        transform:scale(1.2) rotate(270deg);
+    } */
+    100%{
+        transform:scale(1.2) rotate(360deg);
+    }
+
+}
+.name{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    margin-right: 10px;
+}
+.prograssbar{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    margin-right: 10px;
+}

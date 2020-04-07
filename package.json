@@ -14,12 +14,19 @@
     "material-components-web": "^5.1.0",
     "nodemon": "^2.0.2",
     "react": "^16.13.1",
+    "react-anime": "^3.0.3",
+    "react-circular-progressbar": "^2.0.3",
     "react-date-scroll": "^1.1.0",
     "react-dom": "^16.13.1",
     "react-horizontal-strip-datepicker": "^0.1.12",
     "react-material-timeline": "^3.0.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-skillbars": "^1.6.0",
+    "react-stonecutter": "^0.3.10",
+    "react-typist": "^2.0.5",
+    "reactjs-percentage-circle": "^1.0.0",
+    "three": "^0.115.0"
   },
   "scripts": {
     "start": "react-scripts start",

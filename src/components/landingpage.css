@@ -63,7 +63,7 @@ nav > h4{
      color: white;
      /* background-color:green; */
      background-color: transparent;
-    padding: 50px;
+    /* padding: 50px; */
 }
 .svg{
     width:50%;
@@ -200,4 +200,15 @@ nav > h4{
     text-align: center;
     width: 100%;
     color: white !important;
+}
+.divfive{
+    width:100%;
+    height: 50vh;
+    /* background-color: green; */
+    display: flex;
+    /* background-color: tomato; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }

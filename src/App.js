@@ -7,6 +7,7 @@ import Booking from './components/Booking'
 import AboutUs from './components/AboutUs'
 import CheckOut from './components/CheckOut'
 import LandingPage from './components/LandingPage'
+// L
 import {
   BrowserRouter as Router,
   Switch,
