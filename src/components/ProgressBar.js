@@ -32,12 +32,6 @@ export class ProgressBar extends Component {
     }
     
 
-
-
-
-
-
-
     render() {
         console.log(document.getElementsByClassName('InnerDiv'))
         return (
