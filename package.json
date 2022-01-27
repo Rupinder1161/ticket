@@ -26,7 +26,7 @@
     "react-stonecutter": "^0.3.10",
     "react-typist": "^2.0.5",
     "reactjs-percentage-circle": "^1.0.0",
-    "three": "^0.115.0"
+    "three": "^0.137.0"
   },
   "scripts": {
     "start": "react-scripts start",
